@@ -1,0 +1,52 @@
+(PROJECT 1)
+
+STORE "jam" with any value
+STORE "detik" without any value
+
+CALCULATE "jam" * 3600
+SET "detik" with calculation result
+DISPLAY "detik"
+
+--------------------------------------
+(PROJECT 2)
+
+STORE "nilai1" to any number
+STORE "nilai2" to any number
+
+IF "nilai1" > "nilai2"
+	DO "nilai "nilai1" lebih besar"
+IF ELSE "nilai1" equal to "nilai2"
+	DO "nilai pertama sama dengan nilai kedua"
+ELSE
+	DO "nilai "nilai2" lebih besar"
+
+--------------------------------------
+(PROJECT 3)
+
+STORE "one_way" or "two_way"
+STORE "jumlah_traveler" to any number
+STORE "harga_tiket" to any number
+STORE "total_harga" without any value
+
+IF "one_way"
+	CALCULATE "jumlah_traveler" * "harga_tiket"
+	SET "total_harga" value with calculation result
+	DISPLAY "total_harga"
+
+ELSE 
+	CALCULATE "jumlah_traveler" * "harga_tiket" * 2
+	SET "total_harga" value with calculation result
+	DISPLAY "total_harga"
+
+--------------------------------------
+(PROJECT 4)
+
+STORE "nilai" with 0
+STORE "n" to any number
+
+WHILE "nilai" <= "n"
+	DO "nilai" + 1
+	DISPLAY "nilai" 
+
+
+
